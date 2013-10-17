@@ -3,7 +3,7 @@
 		{
 			"img": {
 				"square": {
-					"src": "../../images/sample/thumb-square-river.jpg",
+					"src": "../../assets/images/sample/thumb-square-river.jpg",
 					"alt": "Post Thumbnail"	
 				}
 			},
@@ -17,7 +17,7 @@
 		{
 			"img": {
 				"square": {
-					"src": "../../images/sample/thumb-square-ivy.jpg",
+					"src": "../../assets/images/sample/thumb-square-ivy.jpg",
 					"alt": "Ivy"	
 				}
 			},
@@ -31,7 +31,7 @@
 		{
 			"img": {
 				"square": {
-					"src": "../../images/sample/thumb-square-yosemite.jpg",
+					"src": "../../assets/images/sample/thumb-square-yosemite.jpg",
 					"alt": "Yosemite"	
 				}
 			},
@@ -45,7 +45,7 @@
 		{
 			"img": {
 				"square": {
-					"src": "../../images/sample/thumb-square-fire.jpg",
+					"src": "../../assets/images/sample/thumb-square-fire.jpg",
 					"alt": "Fire"	
 				}
 			},
@@ -59,7 +59,7 @@
 		{
 			"img": {
 				"square": {
-					"src": "../../images/sample/thumb-square-gear.jpg",
+					"src": "../../assets/images/sample/thumb-square-gear.jpg",
 					"alt": "Camping Gear"	
 				}
 			},
@@ -69,11 +69,6 @@
 			"exerpt" : {
 				"medium" : "The equipment used in camping varies with the particular type of camping. For instance, in survival camping the equipment consists of small items which have the purpose of helping the camper in providing food, heat and safety."
 			}
-		}
-	],
-	"inset-blocks" : [
-		{
-			"headline" : "This is the headline for the inset block"
 		}
 	],
 	"latest-block" : [
