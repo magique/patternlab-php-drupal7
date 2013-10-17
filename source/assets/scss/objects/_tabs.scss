@@ -1,33 +1,43 @@
-.tabs {
+/*------------------------------------*\
+    $TABS
+\*------------------------------------*/
+
+// Tabs
+ul.tabs {
+	clear: both;
 	overflow: hidden;
-
-	ul {
-		display: table;
-		width: 100%;
-	}
 	
-	li {
-		display: table-cell;
-		text-align: center;
-		border-right: 1px solid $gray-light-3;
-
-		&:last-child {
-			border-right: 0;
-		}
-	}
-
 	a {
 		display: block;
-		padding: $pad-half;
-		background: $gray;
-
-		&:hover, &:focus {
-			background: $gray-light-3;
+		padding: $pad;
+		border-top: 1px solid $gray-light-2;
+		&:hover {
+  		background: $gray-light-3;
 		}
-
 		&.active {
-			background: $gray-dark;
-			color: $white;
+  		background: $gray-light-2;
 		}
 	}
+
+	@media all and (min-width: $bp-med) {
+		border-bottom: 1px solid $gray-light-2;
+		li {
+			float: left;
+		}
+		a {
+			border: 0;
+		}
+	}
+}
+
+// Primary tabs
+ul.tabs.primary {
+  
+}
+
+// Secondary tabs
+ul.tabs.secondary {
+  a {
+    padding: $pad-half $pad;
+  }
 }

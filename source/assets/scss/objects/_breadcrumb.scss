@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    $BREADCRUMB
+\*------------------------------------*/
+
+.breadcrumb {
+  ul {
+    li {
+      float: left;
+      margin-right: $pad-half;
+      &:after {
+        content: " / ";
+      }
+      &:nth-last-of-type(1) {
+        margin-right: 0;
+        &:after {
+          content: "";
+        }
+      }
+      a {
+        margin: 0 $pad-half 0 0;
+      }
+    }
+  }
+}

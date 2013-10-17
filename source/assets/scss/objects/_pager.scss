@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    $PAGER
+\*------------------------------------*/
+
+ul.pager {
+  li {
+    border-right: 1px solid $gray-light-2;
+    float: left;
+    &:last-child {
+      border: 0;
+    }
+    a {
+      display: block;
+      padding: 0 $pad;
+    }
+    &.pager-first {
+      
+    }
+    &.pager-previous {
+      
+    }
+    &.pager-item {
+      
+    }
+    &.pager-current {
+      padding: 0 $pad;
+    }
+    &.pager-next {
+      
+    }
+    &.pager-last {
+      
+    }
+  }
+}

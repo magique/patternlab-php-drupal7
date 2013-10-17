@@ -1,4 +1,7 @@
 .comments {
+	.comment-list {
+  	margin-top: $space;
+	}
 	li {
 		margin-bottom: $space;
 	}
@@ -10,13 +13,18 @@
 }
 
 .comment-meta {
-	float: left;
-	width: 6.5em;
 
 	img {
 		display: block;
 		border: 1px solid $gray-light-2;
 		margin-bottom: $space-half;
+	}
+	
+	@media all and (min-width: $bp-small) {
+  	
+    float: left;
+    width: 6.5em;
+	
 	}
 }
 
@@ -25,5 +33,8 @@
 }
 
 .comment-text {
-	margin-left: 9em;
+
+  @media all and (min-width: $bp-small) {
+	  margin-left: 9em;
+	}
 }
