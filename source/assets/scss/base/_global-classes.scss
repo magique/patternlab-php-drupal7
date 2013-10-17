@@ -3,15 +3,18 @@
 \*------------------------------------*/
 
 /* Clearfix */
-.cf {
+.cf,
+.clearfix {
     *zoom: 1;
 }
-.cf:before, .cf:after {
+.cf:before, .cf:after,
+.clearfix:before, .clearfix:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
 
-.cf:after {
+.cf:after,
+.clearfix:after {
     clear: both;
 }
 
@@ -22,7 +25,8 @@
 }
 
 /* Completely remove from the flow but leave available to screen readers. */
-.is-vishidden {
+.is-vishidden,
+.element-invisible {
     position: absolute !important;
     overflow: hidden;
     width: 1px;
