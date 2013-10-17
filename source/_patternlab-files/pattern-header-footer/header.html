@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html id="pattern-frame">
+<html class="no-js" id="pattern-frame">
 <head>
-	<title>Pattern Lab Pattern</title>
+	<title>Live style guide</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width" />
 	
@@ -9,6 +9,9 @@
 		Remember that patterns are displayed from two-levels deep (e.g. patterns/patterntype-patternsubtype-patternname/patterntype-patternsubtype-patternname.html)
 		Therefore all calls to assets should have the ../../ in order to work in an apache-less environment
 	-->
+	
+	<!-- Modernizr needs to go in the <head> for best performance -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 	
 	<link rel="stylesheet" href="../../styleguide/css/styleguide.css" media="all" />
 	<link rel="stylesheet" href="../../assets/css/style.css" media="all" />
